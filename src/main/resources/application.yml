@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ec-202001e
+    username: postgres
+    password: postgres
+  jmx: webApiReceive
+server:
+  servlet:
+    context-path: /webApiReceive
